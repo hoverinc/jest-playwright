@@ -1,11 +1,11 @@
 {
-  "globalSetup": "jest-playwright-preset/setup.js",
-  "globalTeardown": "jest-playwright-preset/teardown.js",
-  "testEnvironment": "jest-playwright-preset",
-  "runner": "jest-playwright-preset/runner.js",
+  "globalSetup": "@hover/jest-playwright-preset/setup.js",
+  "globalTeardown": "@hover/jest-playwright-preset/teardown.js",
+  "testEnvironment": "@hover/jest-playwright-preset",
+  "runner": "@hover/jest-playwright-preset/runner.js",
   "testRunner": "jest-circus/runner",
   "setupFilesAfterEnv": [
     "expect-playwright",
-    "jest-playwright-preset/extends.js"
+    "@hover/jest-playwright-preset/extends.js"
   ]
 }
