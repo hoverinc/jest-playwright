@@ -4,7 +4,7 @@ import fs from 'fs'
 import { promisify } from 'util'
 import rimraf from 'rimraf'
 const fsAsync = fs.promises
-import { Page } from 'playwright-core'
+import { Page } from 'playwright'
 
 // @ts-ignore
 import NYC from 'nyc'

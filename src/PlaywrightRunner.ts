@@ -26,7 +26,7 @@ import {
   getBrowserOptions,
 } from './utils'
 import { DEFAULT_TEST_PLAYWRIGHT_TIMEOUT, SERVER } from './constants'
-import { BrowserServer } from 'playwright-core'
+import { BrowserServer } from 'playwright'
 import { setupCoverage, mergeCoverage } from './coverage'
 
 const getBrowserTest = (

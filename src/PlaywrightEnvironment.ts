@@ -5,7 +5,7 @@ import type {
   BrowserContext,
   BrowserContextOptions,
   Page,
-} from 'playwright-core'
+} from 'playwright'
 import type {
   BrowserType,
   ConnectOptions,

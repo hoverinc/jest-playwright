@@ -9,7 +9,7 @@ import {
   FirefoxBrowser,
   WebKitBrowser,
   devices,
-} from 'playwright-core'
+} from 'playwright'
 import { Config as JestConfig } from '@jest/types'
 import { Context } from 'jest-runner/build/types'
 import { Test } from 'jest-runner'
